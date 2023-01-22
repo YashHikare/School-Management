@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+/* CSS FILE */
+.navbar{
+	position: absolute;
+	background: transparent!important;
+	width: 100%;
+	z-index: 10;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.phone,.email{
+	margin-right: 5px;
+}
+.phone{
+	color: #03A9F4;
+}
+.email{
+	color: #E91E63;
+}
+#login{
+	border:2px solid #fff;
+	border-radius: 20px;
+	padding: 0.2rem 1rem!important;
+	line-height: 30px;
+}
+#login:hover{
+	background-color: #F44336!important;
+	border: 2px solid #F44336;
+}
+#signup{
+	border:2px solid #F44336;
+	background-color: #F44336;
+	border-radius: 20px;
+	padding: 0.2rem 1rem!important;
+	line-height: 30px;
+}
+#signup:hover{
+	background-color: #fff!important;
+	border: 2px solid #fff;
+	color: #F44336!important;
+}
+
+.nav-link{
+	color:#fff!important;
+	margin-right: 5px;
+}
+.nav-link:hover{
+	color:rgba(216,216,216)!important;
+}
+.search-bar{
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	width: 100%;
+}
+.input-group>.form-control:focus{
+	box-shadow: none;
+}
+.input-group>.form-control{
+	margin-right: 5px;
+}
+.btn-outline-secondary{
+	border-left: 1px solid #000;
+	border-right:0;
+	border-top:0;
+	border-bottom: 0;
+	border-radius: 0px;
+}
+
+
+
+.btn-outline-secondary:hover{
+	color: #8a8a8a;
+	background-color: #f8f9fa;
+}
+.btn-outline-secondary:focus {
+	box-shadow: none!important;
+}
+.carousel-inner{
+	height: 100vh;
+}
+.carousel-control-prev{
+	background-image:url('data:image/svg+xml,<svg height="2em" width="2em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM310.6 345.4c12.5 12.5 12.5 32.75 0 45.25s-32.75 12.5-45.25 0l-112-112C147.1 272.4 144 264.2 144 256s3.125-16.38 9.375-22.62l112-112c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L221.3 256L310.6 345.4z"/></svg>');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.carousel-control-next{
+	background-image:url('data:image/svg+xml,<svg height="2em" width="2em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM358.6 278.6l-112 112c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25L290.8 256L201.4 166.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l112 112C364.9 239.6 368 247.8 368 256S364.9 272.4 358.6 278.6z"/></svg>');	
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.offcanvas-header{
+	display: none;
+}

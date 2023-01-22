@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+@media only screen and (min-width:320px) and (max-width:480px){
+	.hide{
+	display:none;
+	}
+	.carousel-control-prev,.carousel-control-next{
+	display: none;
+	}
+	
+}
+
+@media only screen and (max-width:768px){
+	.smallscreen{
+	display: none;
+	}
+	form{
+	display: block;
+	width:70%;
+	margin: 0 auto;
+	}
+	form-input{
+	font-size: 14px!important;
+	}
+}
+
+@media only screen and (max-width:900px){
+	.carousel-inner{
+	height: auto!important;
+	}
+	form{
+	display: block;
+	width:80%;
+	margin: 0 auto;
+	}
+	.offcanvas-header{
+	display: block;
+	}
+	.navbar-collapse{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 100%;
+	width: 100%;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	overflow-y:auto;
+	visibility: hidden;
+	background-color: #000;
+	transition:visibility .2s ease-in-out;
+	}
+
+	.navbar-collapse.show{
+	visibility: visible;
+	transform:translateX(-100%);
+	width:50%;
+	}
+	.btn-close{
+	background-color: transparent;
+	border-color: transparent;
+	color: #ffffff;
+	font-size: 22px;
+	}
+	.navbar-light .navbar-nav .nav-link{
+	text-align: center;
+	margin-bottom: 10px!important;
+	}
+	#signup{
+	width: 60%;
+	margin: 0 auto;
+	}
+	#login{
+	width: 60%;
+	margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width:1200px){
+	
+}
